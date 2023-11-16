@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mayowa Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      Simple Arithmetic <br />
+      <span>Calculator</span>
+    </h1>
+    <div class="container">
+      <div class="calc_box">
+        <input type="text" name="screen" id="screen" />
+        <button
+          style="background-color: red; color: #fff; font-size: 1.5rem"
+          onclick="clr()"
+          type="button"
+        >
+          C
+        </button>
+        <button onclick="num('()')" type="button">( )</button>
+        <button onclick="num('e')" type="button"><em>e</em></button>
+        <button onclick="num('**')" type="button">^</button>
+        <button onclick="num('7')" type="button">7</button>
+        <button onclick="num('8')" type="button">8</button>
+        <button onclick="num('9')" type="button">9</button>
+        <button onclick="num('/')" type="button">/</button>
+        <button onclick="num('4')" type="button">4</button>
+        <button onclick="num('5')" type="button">5</button>
+        <button onclick="num('6')" type="button">6</button>
+        <button onclick="num('*')" type="button">*</button>
+        <button onclick="num('1')" type="button">1</button>
+        <button onclick="num('2')" type="button">2</button>
+        <button onclick="num('3')" type="button">3</button>
+        <button onclick="num('-')" type="button">-</button>
+        <button onclick="num('0')" type="button">0</button>
+        <button onclick="num('.')" type="button">.</button>
+        <button onclick="eql()" type="button">=</button>
+        <button onclick="num('+')" type="button">+</button>
+        <p>&copy Ekundayo Mayowa</p>
+      </div>
+      <div class="mode">
+        <span class="switchBtn"></span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
